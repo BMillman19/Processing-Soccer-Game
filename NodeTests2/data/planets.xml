@@ -1,0 +1,41 @@
+<group>
+    <transform type = "translate">
+        <translation>400 300 -100</translation>
+    </transform>
+    <group>
+        <transform type = "rotate">
+            <speed>90</speed>
+            <direction>Y</direction>
+        </transform>
+        <sphere>
+            <color>144 233 92</color>
+            <size>100</size>
+        </sphere>
+        <group>
+            <transform type = "translate">
+                <translation>200 0 0</translation>
+            </transform> 
+            <transform type = "rotate">
+                <speed>90</speed>
+                <direction>Y</direction>
+            </transform>
+            <sphere>
+                <color>24 130 250</color>
+                <size>50</size>
+            </sphere>
+            <group>
+                <transform type = "rotate">
+                    <speed>100</speed>
+                    <direction>Y</direction>
+                </transform>
+                <transform type = "translate">
+                    <translation>70 0 0</translation>
+                </transform> 
+                <sphere>
+                    <color>255 255 255</color>
+                    <size>10</size>
+                </sphere>
+            </group>
+        </group>
+    </group>     
+</group>

@@ -1,0 +1,122 @@
+<group>
+    <group>
+        <transform type = "translate">
+            <translation>-100 0 0</translation>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>100</height>
+        </shape>
+    
+    </group> 
+    <group>
+        <transform type = "translate">
+            <translation>100 0 0</translation>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>100</height>
+        </shape>
+    
+    </group>
+    <group>
+        <transform type = "translate">
+            <translation>0 -50 0</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>2</factor>
+            <direction>z</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>200</height>
+        </shape>
+    
+    </group> 
+    <group>
+        <transform type = "translate">
+            <translation>0 50 -75</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>2</factor>
+            <direction>z</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>200</height>
+        </shape>
+    
+    </group> 
+    <group>
+        <transform type = "translate">
+            <translation>-100 0 -40</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>-5</factor>
+            <direction>x</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>120</height>
+        </shape>
+    
+    </group>
+    <group>
+        <transform type = "translate">
+            <translation>100 0 -40</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>-5</factor>
+            <direction>x</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>120</height>
+        </shape>
+    
+    </group>
+    <group>
+        <transform type = "translate">
+            <translation>-100 50 -35</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>2</factor>
+            <direction>x</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>70</height>
+        </shape>
+    
+    </group>
+    <group>
+        <transform type = "translate">
+            <translation>100 50 -35</translation>
+        </transform>
+        <transform type = "rotate_partial">
+            <factor>2</factor>
+            <direction>x</direction>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>5</width>
+            
+            <height>70</height>
+        </shape>
+    
+    </group>
+</group>

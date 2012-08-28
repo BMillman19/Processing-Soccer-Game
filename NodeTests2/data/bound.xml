@@ -1,0 +1,66 @@
+<group>
+	<shape type = "plane">
+		<color>255 255 255</color>
+		<width>600</width>
+		<length>1000</length>
+	</shape>
+	<group>
+		<transform type = "translate">
+            <translation>0 -600 0</translation>
+        </transform>
+		<shape type = "plane">
+			<width>600</width>
+			<length>1000</length>
+		</shape>
+	</group>
+	<group>
+		<transform type = "rotate_partial">
+			<factor>2</factor>
+			<direction>z</direction>
+		</transform>
+		<group>
+			<transform type = "translate">
+				<translation>-300 -300 0</translation>
+			</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>600</width>
+				<length>1000</length>
+			</shape>
+		</group>
+		<group>
+			<transform type = "translate">
+				<translation>-300 300 0</translation>
+			</transform>
+			<shape type = "plane">
+				<width>600</width>
+				<length>1000</length>
+			</shape>
+		</group>
+	</group>
+		<group>
+		<transform type = "rotate_partial">
+			<factor>2</factor>
+			<direction>x</direction>
+		</transform>
+		<group>
+			<transform type = "translate">
+				<translation>0 -500 300</translation>
+			</transform>
+			<shape type = "plane">
+				<width>600</width>
+				<length>600</length>
+			</shape>
+		</group>
+		<group>
+			<transform type = "translate">
+				<translation>0 500 300</translation>
+			</transform>
+			<shape type = "plane">
+				<width>600</width>
+				<length>600</length>
+			</shape>
+		</group>
+	</group>
+	
+</group>

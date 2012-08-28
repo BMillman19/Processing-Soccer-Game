@@ -1,0 +1,4 @@
+interface Collideable
+{
+  void collide();
+}

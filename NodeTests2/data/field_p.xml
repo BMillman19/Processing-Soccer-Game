@@ -1,0 +1,152 @@
+<group>
+	<group>
+		<transform type = "translate">
+            <translation>0 1500 0</translation>
+        </transform>
+		<shape type = "box">
+			<color>150 100 100</color>	
+			<width>1000</width>
+			<height>3000</height>
+			<depth>1500</depth>
+		</shape>
+	</group>
+	<group>
+		<transform type = "translate">
+            <translation>0 -0.25 0</translation>
+        </transform>
+		<shape type = "plane">	
+			<color>150 100 100</color>	
+			<texture>dirt.jpg</texture>
+			<width>1000</width>
+			<length>1500</length>
+		</shape>
+	</group>
+
+	<group>
+		<transform type = "translate">
+            <translation>0 -0.5 0</translation>
+        </transform>
+		<shape type = "plane">
+			<color>25 255 50</color>
+			<texture>grass.jpg</texture>
+			<width>600</width>
+			<length>1000</length>
+		</shape>
+	</group>
+    <group>
+        <transform type = "translate">
+            <translation>0 -1 0</translation>
+        </transform>
+        <shape type = "cylinder">
+            <color>255 255 255</color>
+            <width>100</width>
+            
+            <height>0</height>
+        </shape>
+        <group>
+            <transform type = "translate">
+            	<translation>0 0 450</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>560</width>
+				<length>10</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>0 0 -450</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>560</width>
+				<length>10</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>280 0 0</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>10</width>
+				<length>900</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>-280 0 0</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>10</width>
+				<length>900</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>0 0 350</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>300</width>
+				<length>200</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>0 0 -350</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>255 255 255</color>
+				<width>300</width>
+				<length>200</length>
+			</shape>
+		</group>		
+    </group> 
+    <group>
+    	<transform type = "translate">
+            <translation>0 -1.5 0</translation>
+        </transform>
+        <shape type = "cylinder">
+            <color>25 255 50</color>
+            <texture>grass.jpg</texture>
+            <width>90</width>
+            
+            <height>0</height>
+        </shape>
+        <group>
+            <transform type = "translate">
+            	<translation>0 0 -345</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>25 255 50</color>
+				<texture>grass.jpg</texture>
+				<width>280</width>
+				<length>180</length>
+			</shape>
+		</group>
+		<group>
+            <transform type = "translate">
+            	<translation>0 0 345</translation>
+        	</transform>
+			<shape type = "plane">
+				<color>25 255 50</color>
+				<texture>grass.jpg</texture>
+				<width>280</width>
+				<length>180</length>
+			</shape>
+		</group>
+    </group>
+    <group>
+    	<transform type = "translate">
+            <translation>0 -2 0</translation>
+        </transform>
+		<shape type = "plane">
+			<color>255 255 255</color>
+			<width>560</width>
+			<length>10</length>
+		</shape>
+    </group>
+    
+</group>

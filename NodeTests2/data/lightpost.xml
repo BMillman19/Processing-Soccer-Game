@@ -1,0 +1,59 @@
+<group>
+	<transform type = "translate">
+        <translation>0 -50 0</translation>
+    </transform>
+	<shape type = "cylinder">
+		<color>100 100 100</color>
+        <width>10</width>
+            
+        <height>250</height>
+    </shape>
+    <group>
+    	<transform type = "translate">
+            <translation>0 -125 0</translation>
+        </transform>
+		<transform type = "scale">
+            <factor>1.2</factor>
+        </transform>
+        <transform type = "rotate_partial">
+        	<factor>-12</factor>
+        	<direction>x</direction>
+        </transform>
+        <shape type = "box">
+        	<color>100 100 100</color>
+        	<width>50</width>
+        	<height>30</height>
+        	<depth>30</depth>
+        </shape>
+        <group>
+        	<transform type = "translate">
+            	<translation>0 0 20</translation>
+        	</transform>
+        	<group>
+        		<transform type = "translate">
+            		<translation>15 0 0</translation>
+        		</transform>
+        		<shape type = "sphere">
+        			<color>255 255 255</color>
+        			<radius>5</radius>
+        		</shape>
+        	</group>
+        	<group>
+        		<transform type = "translate">
+            		<translation>-15 0 0</translation>
+        		</transform>
+        		<shape type = "sphere">
+        			<color>255 255 255</color>
+        			<radius>5</radius>
+        		</shape>
+        	</group>
+        	<group>
+        		<shape type = "sphere">
+        			<color>255 255 255</color>
+        			<radius>5</radius>
+					<light>1</light>
+        		</shape>
+        	</group>   	
+        </group>
+    </group>
+</group>
